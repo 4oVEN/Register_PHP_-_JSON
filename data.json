@@ -1,3 +1,9 @@
 [
- 
+    {
+        "name": "qqq",
+        "password": "$2y$10$\/7n2HV4WrWivTnuhT9Cn.uFV1n4QcxYYHNNy2l7TNvtXFmvSuHYd.",
+        "password_confirm": "$2y$10$\/7n2HV4WrWivTnuhT9Cn.uFV1n4QcxYYHNNy2l7TNvtXFmvSuHYd.",
+        "email": "ndemidovn@gmail.com",
+        "username": "789"
+    }
 ]

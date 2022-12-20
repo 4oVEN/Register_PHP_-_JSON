@@ -47,7 +47,7 @@ class RegisterUser{
 
 
 	private function checkFieldValues(){
-		if(empty($this->username) || empty($this->raw_password)){
+		if(empty($this->username) || empty($this->raw_password) || empty($this->name) || empty($this->email) || empty($this->password_confirm)){
 			$this->error = "Fields are required.";
 			return false;
 		}else{

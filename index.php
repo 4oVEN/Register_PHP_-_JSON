@@ -20,7 +20,7 @@
 
 
 				<label>Login</label>
-        <input type="text" name="name" placeholder="Введите свое полное имя">
+        <input type="text" name="username" placeholder="Введите свое полное имя">
         <label>Password</label>
         <input type="password" name="password" placeholder="Введите пароль">
         <label>Confirm_password</label>
@@ -28,10 +28,14 @@
         <label>Email</label>
         <input type="email" name="email" placeholder="Введите адрес своей почты">
         <label>Name</label>
-        <input type="text" name="username" placeholder="Введите свое имя">
+        <input type="text" name="name" placeholder="Введите свое имя">
 
 				<button type="submit" name="submit">Зарегистрироваться</button>
-        <p>
+        
+
+				<p class="question">
+            У вас уже есть аккаунт? - <a href="login.php">авторизируйтесь</a>!
+        </p>
 
 		<p class="error"><?php echo @$user->error ?></p>
 		<p class="success"><?php echo @$user->success ?></p>

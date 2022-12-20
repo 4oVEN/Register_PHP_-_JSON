@@ -17,13 +17,17 @@
 		<h2>Login form</h2>
 		<h4>Both fields are <span>required</span></h4>
 
-		<label>Username</label>
+		<label>Login</label>
 		<input type="text" name="username">
 
 		<label>Password</label>
 		<input type="text" name="password">
 
 		<button type="submit" name="submit">Log in</button>
+
+		<p class="question">
+            У вас нет аккаунта? - <a href="index.php">зарегистрируйтесь</a>!
+    </p>
 
 		<p class="error"><?php echo @$user->error ?></p>
 		<p class="success"><?php echo @$user->success ?></p>
