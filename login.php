@@ -13,17 +13,16 @@
 	<title>Log in form</title>
 </head>
 <body>
-	<form action="" method="post" enctype="multipart/form-data" autocomplete="off">
+	<form id="login" action="" method="post" enctype="multipart/form-data" autocomplete="off" >
 		<h2>Login form</h2>
-		<h4>Both fields are <span>required</span></h4>
 
 		<label>Login</label>
-		<input type="text" name="username">
+		<input type="text" name="username" required minlength="6">
 
 		<label>Password</label>
-		<input type="text" name="password">
+		<input type="password" name="password" required minlength="6">
 
-		<button type="submit" name="submit">Log in</button>
+		<button class="login-btn" type="submit" name="submit">Log in</button>
 
 		<p class="question">
             У вас нет аккаунта? - <a href="index.php">зарегистрируйтесь</a>!
@@ -33,5 +32,11 @@
 		<p class="success"><?php echo @$user->success ?></p>
 	</form>
 
+
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
+

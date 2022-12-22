@@ -1,0 +1,37 @@
+[
+    {
+        "name": "999999",
+        "password": "$2y$10$yQ9eL7Bw0me09kYdoF5Vmuu2wYmv9l\/dlrcAl.1GIVZOR54.K2xYK",
+        "password_confirm": "$2y$10$yQ9eL7Bw0me09kYdoF5Vmuu2wYmv9l\/dlrcAl.1GIVZOR54.K2xYK",
+        "email": "ndemidovn@gmail.com",
+        "username": "999999"
+    },
+    {
+        "name": "111111",
+        "password": "$2y$10$Tw9HyAyNNYndojZ.re7rdOBG27Q2fs.7u6m2HyvuMxzd0V0UcKE16",
+        "password_confirm": "$2y$10$Tw9HyAyNNYndojZ.re7rdOBG27Q2fs.7u6m2HyvuMxzd0V0UcKE16",
+        "email": "ndemidovn@gmail.com",
+        "username": "000000"
+    },
+    {
+        "name": "888888",
+        "password": "$2y$10$vFkLDF7wRdUWkXawRSdTFu6EisewQ9WkkBth9myWJKI9rYYUsj0f6",
+        "password_confirm": "$2y$10$vFkLDF7wRdUWkXawRSdTFu6EisewQ9WkkBth9myWJKI9rYYUsj0f6",
+        "email": "ndemidovn@gmail.com",
+        "username": "888888"
+    },
+    {
+        "name": "\u043d\u0438\u043a\u0438\u0442\u0430",
+        "password": "$2y$10$cM0dANABH1w\/jN1sTjf.1ODEmUZXnEtiX2WrcPJu5TlHpvlZdjEz.",
+        "password_confirm": "$2y$10$cM0dANABH1w\/jN1sTjf.1ODEmUZXnEtiX2WrcPJu5TlHpvlZdjEz.",
+        "email": "ndemidovn@gmail.com",
+        "username": "\u041d\u0438\u043a\u0438\u0442\u0430"
+    },
+    {
+        "name": "\u0439\u0446\u0443\u043a\u0435\u043d",
+        "password": "$2y$10$nJxUQV1B9uTHyRAoyAJgOu9YPK49X.sbLW7eHvfHWDxy.dIOUBCdG",
+        "password_confirm": "$2y$10$nJxUQV1B9uTHyRAoyAJgOu9YPK49X.sbLW7eHvfHWDxy.dIOUBCdG",
+        "email": "ndemidovn@gmail.com",
+        "username": "\u0439\u0446\u0443\u043a\u0435\u043d"
+    }
+]

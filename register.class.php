@@ -9,9 +9,11 @@ class RegisterUser{
 	private $encrypted_password; //хишированый пароль
 	public $error; // ошибка
 	public $success; // успех
-	private $storage = "data.json"; // хранилище
+	private $storage = "data/data.json"; // хранилище
 	private $stored_users; // все пользователи
 	private $new_user; // array 
+
+
 
 
 	public function __construct($name, $password, $password_confirm, $email, $username){
@@ -78,6 +80,9 @@ class RegisterUser{
 		}
 	}
 
+} 
+// if($password === $password_confirm){
 
-
-} // end of class
+// }else{
+// 	die('Пароли не совпадают');
+// }

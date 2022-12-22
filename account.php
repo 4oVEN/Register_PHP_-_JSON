@@ -23,7 +23,7 @@
 
 	<div class="content">
 		<header>
-			<h2>Welcome <?php echo $_SESSION['user']; ?><h2>
+			<h2>Hello <?php echo $_SESSION['user']; ?><h2>
 			<a href="?logout">Log out</a>	
 		</header>
 
@@ -32,5 +32,7 @@
 		</main>
 	</div>
 
+	
+	
 </body>
 </html>

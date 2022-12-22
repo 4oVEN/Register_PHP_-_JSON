@@ -15,20 +15,20 @@
 </head>
 <body>
 
-	<form action="" method="post" enctype="multipart/form-data" autocomplete="off">
+	<form action="" method="post" enctype="multipart/form-data" autocomplete="off" id="register">
 		<h2>Register form</h2>
 
 
 				<label>Login</label>
-        <input type="text" name="username" placeholder="Введите свое полное имя">
+        <input type="text" name="username" minlength="6" placeholder="Введите свое полное имя" required>
         <label>Password</label>
-        <input type="password" name="password" placeholder="Введите пароль">
+        <input type="password" name="password" id="password" minlength="6" placeholder="Введите пароль" required>
         <label>Confirm_password</label>
-        <input type="password" name="password_confirm" placeholder="Подтвердите пароль">
+        <input type="password" name="password_confirm" id="password_confirm" placeholder="Подтвердите пароль" required>
         <label>Email</label>
-        <input type="email" name="email" placeholder="Введите адрес своей почты">
+        <input type="email" name="email" placeholder="Введите адрес своей почты" required>
         <label>Name</label>
-        <input type="text" name="name" placeholder="Введите свое имя">
+        <input type="text" name="name" minlength="2" placeholder="Введите свое имя" required>
 
 				<button type="submit" name="submit">Зарегистрироваться</button>
         
@@ -41,5 +41,8 @@
 		<p class="success"><?php echo @$user->success ?></p>
 	</form>
 
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>

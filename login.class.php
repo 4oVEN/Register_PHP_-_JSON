@@ -5,7 +5,7 @@ class LoginUser{
 	private $password;
 	public $error;
 	public $success;
-	private $storage = "data.json";
+	private $storage = "data/data.json";
 	private $stored_users;
 
 	// class methods
@@ -24,10 +24,12 @@ class LoginUser{
 					session_start();
 					$_SESSION['user'] = $this->username;
 					header("location: account.php"); exit();
+
 				}
 			}
 		}
 		return $this->error = "Wrong username or password";
+
 	}
 
 }
